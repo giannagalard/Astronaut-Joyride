@@ -9,6 +9,7 @@ public class Potions : MonoBehaviour
     private void Start()
     {
         GI = GameObject.Find("Managers").GetComponent<GameInfo>();
+        StartCoroutine("Die");
     }
 
     void Update()
@@ -24,5 +25,11 @@ public class Potions : MonoBehaviour
             GI.potions += 1;
             Destroy(this.gameObject);
         }
+    }
+
+    IEnumerator Die()
+    {
+        yield return new WaitForSeconds(10f);
+        Destroy(this.gameObject);
     }
 }

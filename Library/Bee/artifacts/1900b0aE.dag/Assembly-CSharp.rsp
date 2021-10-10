@@ -322,6 +322,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/BackgroundLoop.cs"
 "Assets/Scripts/GameInfo.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Meteor.cs"
 "Assets/Scripts/Parallax.cs"
@@ -330,6 +331,7 @@
 "Assets/Scripts/Potions.cs"
 "Assets/Scripts/Projectile.cs"
 "Assets/Scripts/Projectiles.cs"
+"Assets/Scripts/Spaceship.cs"
 "Assets/Scripts/UIManager.cs"
 "Assets/Scripts/VolumeAdjust.cs"
 -langversion:8.0

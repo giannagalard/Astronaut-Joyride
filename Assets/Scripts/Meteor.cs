@@ -9,6 +9,7 @@ public class Meteor : MonoBehaviour
     private void Start()
     {
         GI = GameObject.Find("Managers").GetComponent<GameInfo>();
+        StartCoroutine("Die");
     }
 
     void Update()
@@ -23,6 +24,12 @@ public class Meteor : MonoBehaviour
             collision.GetComponent<PlayerController>().TakeDamage(transform.GetComponent<Projectile>().dmg);
             Destroy(this.gameObject);
         }
+    }
+
+    IEnumerator Die()
+    {
+        yield return new WaitForSeconds(10f);
+        Destroy(this.gameObject);
     }
 
 }
