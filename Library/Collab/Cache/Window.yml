@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Scenes/Death.unity
+    - Assets/Scenes/Death.unity.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
     - 
-    m_Values: 01
-  RevisionSummary: 
+    m_Values: 01010101
+  RevisionSummary: WOOP WOOP MUSIC ADDED AND SLIDER CAN BE ADJUSTED IN MAIN MENU
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
